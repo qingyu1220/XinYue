@@ -1,0 +1,25 @@
+<div class="new">
+	<header-directive></header-directive>
+	<div class="logo">
+		<img src="../YunHou/public/imgs/new/newbanner.jpeg">
+	</div>
+	<nav>
+		<p>选择类目</p>
+		<ul>
+			<li ng-repeat='data in products'><a href='#{{data.id}}'  >{{data.classify}}</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="classify" ng-repeat="data in products">
+			<h2> <a name='{{data.id}}'>{{data.classify}}</a></h2>
+			<div class="product" ng-repeat='img in data.imgs track by $index'>
+				<div class='imgC'>
+					<img src='{{img}}'>
+				</div>
+				<p>{{data.title}}</p>
+				<h3><span>￥{{data.newprice}}</span><i>￥{{data.oldprice}}</i></h3>
+				<h4>立即购买 ></h4>
+			</div>
+		</div>
+	</main>
+</div>

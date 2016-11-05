@@ -1,0 +1,31 @@
+<div class="searchMain">
+    <header>
+        <a href="javascript:history,go(-1)"><img src="../YunHou/public/imgs/icons/left.png" alt=""></a>
+        <span>
+            <img src="../YunHou/public/imgs/icons/searchMirror.png" alt="">
+            <input type="text" name="" id="" placeholder="购全球, 上云猴">
+        </span>
+        <img src="../YunHou/public/imgs/icons/home.png" alt="">
+    </header>
+    <main>
+        <nav>
+            <span class="choose" ng-click='ord=""'>默认</span>
+            <span ng-click='ord="saleprice"'>价格</span>
+            <span ng-click='ord="sort"'>销量</span>
+            <span ng-click=''>筛选</span>
+        </nav>
+        <a href="#">
+            <dl ng-repeat="item in searchData | filter:key | orderBy:ord" ng-style='{
+                background : "url(item.img) no-repeat",
+                backgroundSize : "contain"
+            }'>
+                <dt></dt>
+                <dd>
+                    <h1>{{item.productName}}</h1>
+                    <p>{{item.content}}</p>
+                    <h2><span>{{item.saleprice}}</span><img src="../YunHou/public/imgs/icons/car.png" class='addcar' alt=""></h2>
+                </dd>
+            </dl>
+        </a>
+    </main>
+</div>

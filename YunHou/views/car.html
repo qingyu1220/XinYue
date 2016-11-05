@@ -1,0 +1,34 @@
+<div class="car-header">
+    <a href="javascript:history.back();" ></a>
+    <div class="ui-title">购物车</div>
+   <div class="editor">
+       <span>编辑</span>
+   </div>
+</div>
+<div class="car-addr">
+    <span class="text">地址：</span>
+    <span class="text-info">北京,市辖区,东城区</span>
+</div>
+<div class="proItem">
+	<div class="right">
+	</div>
+	<div class="item-info">
+		 <div class="pro" >
+			<img src="../public/imgs/car-logo.png" alt="">
+		</div>
+		<div class="info">
+			<p>都是卡萨丁看的是可是看看盘买的是你说呢</p>
+			 <span>20</span>
+			<div class="cal" ng-init="count=1">
+				<i ng-click="min($event)" ng-class="{true : '_del', false : 'min'}[count==1]">{{single}}</i>
+				<input type="text" value="1" ng-model="count">
+				<i class="add" ng-click="add($event)">+</i>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div class="car-total" ng-init="moneyT=318">
+	<div class="right-total">全选</div>
+	<span ng-bind="moneyT"></span>
+	<div class="car-pay">去结算</div>
+</div>

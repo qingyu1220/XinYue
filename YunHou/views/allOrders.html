@@ -1,0 +1,37 @@
+
+<div class="page-view">
+	<header class="ui-header">
+		<a href="#/mine">&lt;
+		</a>
+		<span>全部订单</span>
+	</header>
+	<div class="page-view-body">
+		<section class='mod-orders-head'> 
+			<div class="hd">
+				<!-- <a href="javascript:void(0)" ui-sref='.all' ng-class="{true:'active',false:'unActive'}[isClick]" ng-click='addBorder()'> -->
+				<a href="javascript:void(0)" ui-sref='.all' ng-click='addBorder(0)' ng-style='myStyle' class="all">
+					<span>全部</span>
+				</a>
+				<!-- <a href="javascript:void(0)" ui-sref='.pay' ng-class="{true:'active',false:'unActive'}[isClick]" ng-click='addBorder()'> -->
+				<a href="javascript:void(0)" ui-sref='.pay' ng-click='addBorder(1)' ng-style='myStyle' class="pay">
+					<span>待付款</span>
+					<span>0</span>
+				</a>
+				<!-- <a href="javascript:void(0)" ui-sref='.send' ng-class="{true:'active',false:'unActive'}[isClick]" ng-click='addBorder()'> -->
+				<a href="javascript:void(0)" ui-sref='.send' ng-click='addBorder(2)' ng-style='myStyle' class="send">
+					<span>待发货</span>
+					<span>0</span>
+				</a>
+				<!-- <a href="javascript:void(0)" ui-sref='.take' ng-class='{true:'active',false:'unActive'}[isClick]' ng-click='addBorder(3)'> -->
+				<!-- <a href="javascript:void(0)" ui-sref='.take' ng-class="{true:'active',false:'unActive'}[isClick]" ng-click='addBorder()'> -->
+				<a href="javascript:void(0)" ui-sref='.take' ng-click='addBorder(3)' ng-style='myStyle' class="take">
+					<span>待收货</span>
+					<span>0</span>
+				</a>
+			</div>
+		</section>
+		<div class="tab-panel" ui-view>
+			
+		</div>
+	</div>
+</div>

@@ -1,0 +1,38 @@
+{
+	"goodStoreImg" : [{
+		"imgUrl" : "public/imgs/goodStore2.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore3.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore4.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore5.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore6.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore7.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore8.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore9.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore10.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore11.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore12.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore13.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore14.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore15.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore16.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore17.jpg"
+	},{
+		"imgUrl" : "public/imgs/goodStore18.jpg"
+	}]
+
+}

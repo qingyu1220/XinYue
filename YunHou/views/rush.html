@@ -1,0 +1,33 @@
+<div class="rush">
+    <rushheader-directive></rushheader-directive>
+    <main>
+        <img src="../YunHou/public/imgs/rush/rushbanner.jpeg" alt="">
+        <nav>
+            <a sref=''>00点</a>
+            <a sref='' class="active rushing">12点</a>
+            <a sref=''>18点</a>
+        </nav>
+        <div ui-view>
+            <div class="clock12">
+                <div class="clock">
+                    <p>本场结束倒计时</p>
+                    <p><span>02:45:01</span></p>
+                </div>
+                <dl class="clear" ng-repeat="item in rushProducts" ng-style="{
+                    background:'url({{item.img}}) no-repeat',
+                    backgroundSize: 'contain'
+                }">
+                    <dt></dt>
+                    <dd>
+                        <p>{{item.productName}}</p>
+                        <div class="price">
+                            <span>{{item.saleprice}}</span>
+                            <i>{{item.mktprice}}</i>
+                        </div>
+                        <a>去秒杀</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </main>
+</div>

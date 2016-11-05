@@ -1,0 +1,52 @@
+{
+	"products":[
+		{
+			"classify":"美妆香氛",
+			"title":"雅诗兰黛柔顺护理,超值特惠,欢庆双十一 500ml",
+			"oldprice":"129",
+			"newprice":"99",
+			"id":"beautiful",
+			"imgs":["public/imgs/pop/pop31.jpeg","public/imgs/pop/pop32.jpeg","public/imgs/pop/pop33.jpeg","public/imgs/pop/pop34.jpeg","public/imgs/pop/pop35.jpeg","public/imgs/pop/pop36.jpeg","public/imgs/pop/pop37.jpeg","public/imgs/pop/pop39.jpeg","public/imgs/pop/pop40.jpeg"]
+		},
+		{
+			"classify":"贴心母婴",
+			"title":"雅诗兰黛柔顺护理,超值特惠,欢庆双十一 500ml",
+			"oldprice":"129",
+			"newprice":"99",
+			"id":"baby",
+			"imgs":["public/imgs/pop/pop11.jpeg","public/imgs/pop/pop12.jpeg","public/imgs/pop/pop13.jpeg","public/imgs/pop/pop14.jpeg","public/imgs/pop/pop15.jpeg","public/imgs/pop/pop16.jpeg","public/imgs/pop/pop17.jpeg","public/imgs/pop/pop18.jpeg","public/imgs/pop/pop19.jpeg","public/imgs/pop/pop20.jpeg"]
+		},
+		{
+			"classify":"美味食品",
+			"title":"雅诗兰黛柔顺护理,超值特惠,欢庆双十一 500ml",
+			"oldprice":"129",
+			"newprice":"99",
+			"id":"food",
+			"imgs":["public/imgs/pop/pop21.jpeg","public/imgs/pop/pop22.jpeg","public/imgs/pop/pop23.jpeg","public/imgs/pop/pop24.jpeg","public/imgs/pop/pop25.jpeg","public/imgs/pop/pop26.jpeg","public/imgs/pop/pop27.jpeg","public/imgs/pop/pop28.jpeg","public/imgs/pop/pop29.jpeg"]
+		},
+		{
+			"classify":"品质家居",
+			"title":"雅诗兰黛柔顺护理,超值特惠,欢庆双十一 500ml",
+			"oldprice":"129",
+			"newprice":"99",
+			"id":"family",
+			"imgs":["public/imgs/pop/pop10.jpeg","public/imgs/pop/pop1.jpeg","public/imgs/pop/pop2.jpeg","public/imgs/pop/pop3.jpeg","public/imgs/pop/pop4.jpeg","public/imgs/pop/pop5.jpeg","public/imgs/pop/pop6.jpeg","public/imgs/pop/pop7.jpeg","public/imgs/pop/pop2.jpeg"]
+		},
+		{
+			"classify":"放心保健",
+			"title":"雅诗兰黛柔顺护理,超值特惠,欢庆双十一 500ml",
+			"oldprice":"129",
+			"newprice":"99",
+			"id":"healthy",
+			"imgs":["public/imgs/pop/pop39.jpeg","public/imgs/pop/pop40.jpeg","public/imgs/pop/pop41.jpeg","public/imgs/pop/pop42.jpeg","public/imgs/pop/pop43.jpeg","public/imgs/pop/pop44.jpeg","public/imgs/pop/pop45.jpeg"]
+		},
+		{
+			"classify":"个人护理",
+			"title":"雅诗兰黛柔顺护理,超值特惠,欢庆双十一 500ml",
+			"oldprice":"129",
+			"newprice":"99",
+			"id":"protect",
+			"imgs":["public/imgs/pop/pop46.jpeg","public/imgs/pop/pop47.jpeg","public/imgs/pop/pop48.jpeg","public/imgs/pop/pop49.jpeg","public/imgs/pop/pop50.jpeg","public/imgs/pop/pop51.jpeg","public/imgs/pop/pop52.jpeg","public/imgs/pop/pop53.jpeg","public/imgs/pop/pop54.jpeg","public/imgs/pop/pop55.jpeg"]
+		}
+	]
+}

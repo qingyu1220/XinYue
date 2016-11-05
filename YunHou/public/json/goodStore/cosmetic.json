@@ -1,0 +1,87 @@
+{
+	"products": [{
+		"id": "20081000834",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic1.jpg",
+		"hasStore": true,
+		"price": "79.00"
+	}, {
+		"id": "20081000795",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic2.jpg",
+		"hasStore": true,
+		"price": "89.00"
+	}, {
+		"id": "20081000739",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic3.jpg",
+		"hasStore": true,
+		"price": "109.00"
+	}, {
+		"id": "20081000757",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic4.jpg",
+		"hasStore": true,
+		"price": "59.00"
+	}, {
+		"id": "20081000729",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic5.jpg",
+		"hasStore": true,
+		"price": "69.00"
+	}, {
+		"id": "20085000099",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic6.jpg",
+		"hasStore": true,
+		"price": "49.00"
+	}, {
+		"id": "20081000793",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic7.jpg",
+		"hasStore": true,
+		"price": "69.00"
+	}, {
+		"id": "20081000790",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic8.jpg",
+		"hasStore": true,
+		"price": "69.00"
+	}, {
+		"id": "20081000842",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic9.jpg",
+		"hasStore": true,
+		"price": "79.00"
+	}, {
+		"id": "20081000760",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic10.jpg",
+		"hasStore": true,
+		"price": "49.00"
+	}, {
+		"id": "20081000749",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic11.jpg",
+		"hasStore": true,
+		"price": "69.00"
+	}, {
+		"id": "20081000746",
+		"umpTags": "",
+		"name" : "Clinie克莱斯 金装升级双倍水库补水蚕丝面膜 10片/盒",
+		"imgUrl" : "public/imgs/selfCosmetic12.jpg",
+		"hasStore": true,
+		"price": "125.00"
+	}]
+}

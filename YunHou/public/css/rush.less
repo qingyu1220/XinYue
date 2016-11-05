@@ -1,0 +1,143 @@
+@pink: #f03468;
+
+.rush {
+    font-size: 0.14rem;
+
+    main {
+        margin-top: 0.5rem;
+
+        > img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        nav {
+            height: 0.4rem;
+            background: #f2f2f2;
+            display: flex;
+            text-align: center;
+            line-height: 0.4rem;
+            justify-content: space-between;
+
+            a {
+                flex: 1 1 33%;
+                height: 100%;
+                box-sizing: border-box;
+
+                &.active {
+                    color: @pink;
+                    border-bottom: 2px solid @pink;
+                }
+                &.rushing{
+                    &::before{
+                        content: "";
+                        width: 0.25rem;
+                        height: 0.25rem;
+                        display: inline-block;
+                        background: url(../public/imgs/rush/rushing.png) no-repeat center center;
+                        background-size: contain;
+                        vertical-align: middle;
+                        margin-top: -0.03rem;
+                    }
+                }
+            }
+        }
+
+        > div {
+            .clock12 {
+                .clock {
+                    margin: 0.1rem 0;
+                    p {
+                        text-align: center;
+
+                        &:nth-of-type(1) {
+                            color: #999;
+                            font-size: 0.12rem;
+                        }
+
+                        &:nth-of-type(2) {
+                            span {
+                                color:#333;
+                                font-family: '微软雅黑';
+                                font-size: 0.25rem;
+                                paddint: 0 0.1rem;
+                                &::after {
+                                    margin-left: 0.1rem;
+                                    background: linear-gradient(to right ,#aaa, transparent);
+                                }
+
+                                &::before {
+                                    margin-right: 0.1rem;
+                                    background: linear-gradient(to left ,#aaa, transparent);
+                                }
+                                &::after,
+                                &::before {
+                                    content: "";
+                                    display: inline-block;
+                                    width: 20%;
+                                    height: 0.02rem;
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                dl {
+                    height: 1.3rem;
+                    border-bottom: 1px solid #ddd;
+                    dt {
+                        width: 41%;
+                        height: 100%;
+                        float: left;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    dd {
+                        position: relative;
+                        width: 58%;
+                        height: 100%;
+                        float: right;
+                        font-size: 0.14rem;
+                        p {
+                            height: 3em;
+                            margin-top: 0.2rem;
+                            overflow: hidden;
+                        }
+
+                        .price {
+                            position: absolute;
+                            left: 0.1rem;
+                            bottom: 0.1rem;
+                            span {
+                                display: block;
+                                font-size: 0.16rem;
+                                color:@pink;
+                            }
+
+                            i {
+                                font-size: 0.12rem;
+                                color:#aaa;
+                                text-decoration: line-through;
+                            }
+                        }
+
+                        a {
+                            position: absolute;
+                            right: 0.1rem;
+                            bottom: 0.1rem;
+                            padding:0.1rem 0.2rem;
+                            background: @pink;
+                            color:#fff;
+                            border-radius: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

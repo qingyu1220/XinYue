@@ -1,0 +1,9 @@
+
+<div class="selfPro" ng-repeat='pro in products'>
+	<div class='imgC'>
+		<img src='{{pro.imgUrl}}'>
+	</div>
+	<p>{{pro.name}}</p>
+	<h3><span>￥{{pro.price}}</span><i>￥{{pro.price*1.15 | number:0}}</i></h3>
+	<h4>立即购买></h4>
+</div>

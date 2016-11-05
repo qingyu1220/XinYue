@@ -1,0 +1,31 @@
+{
+	"products": [{
+		"id": "20081000718",
+		"umpTags": "",
+		"imgUrl" : "public/imgs/selfPop1.jpg",
+		"name" : "Bioderma贝德玛深层舒砚卸妆水(粉水) 500ml",
+		"hasStore": true,
+		"price": "179.00"
+	}, {
+		"id": "20081000230",
+		"umpTags": "",
+		"imgUrl" : "public/imgs/selfPop2.jpg",
+		"name" : "澳洲进口德运Devondale高钙脱脂中老年学生成人",
+		"hasStore": true,
+		"price": "288.00"
+	}, {
+		"id": "20081000981",
+		"umpTags": "",
+		"imgUrl" : "public/imgs/selfPop3.jpg",
+		"name" : "德国BRITA碧然德 ALUNA系列XL滤水壶3.5L",
+		"hasStore": true,
+		"price": "89.00"
+	}, {
+		"id": "19786075153",
+		"umpTags": "",
+		"imgUrl" : "public/imgs/selfPop4.jpg",
+		"name" : "【爸爸去哪儿同款】日本VAPE婴儿电子驱蚊器手",
+		"hasStore": true,
+		"price": "99.00"
+	}]
+}

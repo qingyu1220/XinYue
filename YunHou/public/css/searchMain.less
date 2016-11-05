@@ -1,0 +1,127 @@
+.searchMain {
+    header {
+        height: 0.5rem;
+        background: #fff;
+        display: flex;
+        position: fixed;
+        z-index: 5;
+        width: 100%;
+        top: 0;
+        justify-content: space-between;
+        align-items: center;
+
+        > a img {
+            width: 0.1rem;
+            height: 0.2rem;
+            margin-left: 0.1rem;
+        }
+        >img{
+            width: 0.2rem;
+            height: 0.2rem;
+            margin-right: 0.1rem;
+        }
+
+        span {
+            width: 75%;
+            height: 0.3rem;
+            background: #f3f3f3;
+            border-radius: 0.03rem;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            color: #999;
+            line-height: 0.3rem;
+
+            img {
+                width: 0.2rem;
+                height: auto;
+                margin: 0 0.1rem;
+            }
+
+            input {
+                background: transparent;
+                width: 80%;
+                height: 100%;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+
+    main {
+        margin-top: 0.5rem;
+        nav {
+            height: 0.4rem;
+            display: flex;
+            background: #f9f9f9;
+            line-height: 0.4rem;
+            text-align: center;
+            justify-content: space-around;
+            align-items:center;
+            span {
+                width: 20%;
+                box-sizing: border-box;
+                height: 100%;
+                &.choose{
+                    color:@pink;
+                    border-bottom: 2px solid @pink;
+                }
+            }
+        }
+
+        a {
+            display: block;
+
+            dl {
+                height: 1.4rem;
+                border-bottom: 1px solid #eee;
+                dt {
+                    width: 37%;
+                    height: 100%;
+                    float: left;
+                }
+
+                dd {
+                    width: 62%;
+                    height: 100%;
+                    position: relative;
+                    float: right;
+                    h1 {
+                        font-size: 0.14rem;
+                        color:#333;
+                    }
+
+                    p {
+                        color:#666;
+                        line-height: 0.2rem;
+                        height: 0.4rem;
+                        overflow: hidden;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        width: 100%;
+                        bottom: 0.1rem;
+                        height: 0.3rem;
+                        span {
+                            float: left;
+                            color:@pink;
+                            font-size: 0.2rem;
+                        }
+
+                        img {
+                            float: right;
+                            width: 0.2rem;
+                            height: 0.2rem;
+                            margin-right: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@pink:#f03468;

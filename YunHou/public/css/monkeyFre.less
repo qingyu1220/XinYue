@@ -1,0 +1,185 @@
+.monkeyFre-page{
+	// padding-top: .79rem;
+	font: .4rem/.4rem "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+	width: 100%;
+	padding-bottom: 1rem;
+
+}
+
+.swiper-container{
+	width: 100%;
+	img{
+		width: 100%;
+		border:0;
+	}
+}
+
+
+.monkeyFre-common{
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.monkeyFre-hot{
+	width: 100%;
+	border-top: 1px solid #e5e5e5;
+	.mon-con{
+		img{
+			border:0;
+			width: 100%;
+
+		}
+	}
+}
+
+
+.mon-hd{
+		border-bottom: none;
+		background-color: #fff;
+		background-image: url(../public/imgs/monEle-hot.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		height: .3rem;
+		color: #333;
+		font-size: .1rem;
+		line-height: .3rem;
+	}
+
+
+.monEle-play{
+	margin-top: 4px;
+	border-top: 1px solid #e5e5e5;
+	.mon-con{
+		padding-top: 4px;
+		padding-bottom: 4px;
+		height: auto;
+		overflow: hidden;
+		background-color: #fff;
+		.img-1{
+			float: right;
+			margin-right: 4px;
+			margin-left: 0;
+			width: 40.9%;
+			
+			// background-image: 
+			background-size: contain;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			border:0;
+
+		}  
+
+		.img-2{
+			float: right;
+			margin-right: 4px;
+			margin-bottom: 4px;
+			width: 56%;
+			background-size: contain;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			border:0;
+
+		}
+	}
+}
+
+.monEle-select{
+	margin-top: 4px;
+	border-top: 1px solid #e5e5e5;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+	.mon-con{
+		.mon-item{
+			background-color: #fff;
+			width: 100%;
+			height: 1.198rem;
+			position: relative;
+			margin-bottom: 4px;
+			overflow: hidden;
+			.item-img{
+				position: absolute;
+				z-index: 1;
+				width: 100%;
+				margin: 0;
+			}
+
+			.item-info{
+				z-index: 2;
+				position: absolute;
+				margin-left: 1.55rem;
+				float: right;
+				width: 1.47rem;
+				margin-right: .16rem;
+				height: auto;
+				.info-name{
+					margin-top: .21rem;
+					margin-right: .16rem;
+					font-size: .1rem;
+					line-height: .15rem;
+					color: #333;
+					overflow: hidden;
+					text-overflow:ellipsis;
+					white-space: pre-wrap;
+					-webkit-line-clamp:3;
+					-webkit-box-orient: vertical;
+					display: -webkit-box;
+				}
+
+				.info-price{
+					color: #000;
+					.price-now{
+						float: left;
+						color: #ff5a00;
+						font-size: .16rem;
+						height: .4rem;
+						line-height: .4rem;
+						em{
+							font-size: .1rem;
+							font-style: normal;
+							color: #ff5a00;
+							line-height: .4rem;
+						}
+					}
+
+					.price-ori{
+						float: left;
+						margin-left: .06rem;
+						color: silver;
+						font-size: .1rem;
+						line-height: .4rem;
+						height: .32rem;
+						text-decoration: line-through;
+						em{
+							color: silver;
+						}
+					}
+				}
+
+			}
+
+			.addCar{
+				position: absolute;
+			    bottom: 5px;
+			    right: .1rem;
+			    z-index: 6;
+			    height: 0.3rem;
+			    line-height: 0.3rem;
+			    text-align: center;
+				&:after{
+					content: '\e603';
+				    font-family: iconglobal;
+				    font-size: .2rem;
+				    padding: .03rem;
+				    border-radius: 50%;
+				    background-color: #f03468;
+				    // text-align: center;
+				    color: #fff;
+				}
+			}
+
+		}
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"products":[
+		{
+			"id": "19801000110",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug44.jpg",
+			"umpTags": "",
+			"hasStore": false,
+			"price": "1198"
+		}, {
+			"id": "19801000091",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug45.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1598"
+		}, {
+			"id": "19695000216",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug46.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1588"
+		}, {
+			"id": "19695000219",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug47.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1388"
+		}, {
+			"id": "19695000222",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug48.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1588"
+		}, {
+			"id": "19695000233",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug49.jpg",
+			"umpTags": "",
+			"hasStore": false,
+			"price": "1598"
+		}, {
+			"id": "19696000019",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug50.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1598"
+		}, {
+			"id": "19696000038",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug51.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1499"
+		}, {
+			"id": "19696000040",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug52.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "2799"
+		}, {
+			"id": "10393000132",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug53.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1099"
+		}, {
+			"id": "10393000128",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug54.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1799"
+		}, {
+			"id": "10393000155",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug55.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "2099"
+		}, {
+			"id": "19597000085",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug56.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1649"
+		}, {
+			"id": "19682000118",
+			"name" : "COACH 嫩绿色纯皮女士单肩包",
+			"imgUrl" : "public/imgs/gilrLug57.jpg",
+			"umpTags": "",
+			"hasStore": true,
+			"price": "1975"
+		}]
+}

@@ -1,0 +1,70 @@
+<main>
+    <!-- 轮波图 -->
+    <swiper-directivei></swiper-directivei>
+    <div class="navbar">
+        <dl>
+            <dt>
+                <img src="public/imgs/navbar1.png">
+            </dt>
+            <dd>人气热销</dd>
+        </dl>
+        <dl>
+            <dt>
+                <img src="public/imgs/navbar2.png">
+            </dt>
+            <dd>最新种草</dd>
+        </dl>
+        <dl>
+            <dt>
+                <img src="public/imgs/navbar3.png">
+            </dt>
+            <dd>轻奢印象</dd>
+        </dl>
+        <dl>
+            <dt>
+                <img src="public/imgs/navbar4.png">
+            </dt>
+            <dd>好店搜罗</dd>
+        </dl>
+    </div>
+    <div class="banner">
+        <div class="mod-floor">
+            <img src="public/imgs/bg.jpeg">
+            <div class="seckill">
+                <p class="txt">本场秒杀倒计时</p>
+                <p class="date" id="timebox">
+                    00:33:38
+                </p>
+                <p class="next" data-time="1477886400000" data-type="next">
+                    <span>下一场</span> 今天
+                    <span class="red">12:00</span>
+                </p>
+            </div>
+        </div>
+        <img src="public/imgs/banner2.jpeg">
+        <img src="public/imgs/banner3.jpeg">
+        <img src="public/imgs/banner4.jpeg">
+        <img src="public/imgs/banner5.jpeg">
+        <img src="public/imgs/banner6.jpeg">
+        <img src="public/imgs/banner7.jpg">
+    </div>
+    <div class="singleItem">
+        <h3>优选单品</h3>
+        <a ui-sref="itemDetail" ng-repeat="pro in products">
+            <dl >
+                <dt>
+                    <img ng-src="{{pro.img}}">
+                </dt>
+                <dd>
+                    <h3>{{pro.productName}}</h3>
+                    <p class="price">
+                        <span class="new">{{pro.saleprice | currency:"￥"}}</span>
+                        <span class="old">{{pro.mktprice | currency:"￥"}}</span>
+                    </p>
+                    <img src="public/imgs/cart.gif">
+                </dd>
+            </dl>
+        </a>
+    </div>
+    <img src="public/imgs/circle.gif" alt="">
+</main>

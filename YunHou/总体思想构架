@@ -1,0 +1,62 @@
+
+使用工具 grunt  less to css   压缩  合并  引入
+
+工程仓库 github  创建仓库  邀请合作者  
+
+使用框架 angular   angular.js  angular.route.js  
+
+
+/*
+
+
+目录结构  
+
+
+*/
+
+
+首页  3  全球购  云猴生鲜  云猴家电 
+	swiper  分类  后两个网页结构基本一致 练习自定义指令
+
+首页nav  2  人气热销  最新种草
+	结构相对简单  任务量较少  注意点为nav部分
+
+首页nav  2  轻奢印象  好店搜罗
+	图片为主  配合锚点  没什么跳转
+
+我的  3  基本面板  订单  积分  收藏  
+	任务量较多  涉及到多个div在同一个页面中的显示隐藏效果及判定
+
+分类  1  一个  
+购物车  1  一个
+	分类页面纯属闹着玩,点击的效果为,全部跳回到首页
+	购物车部分逻辑性较强,涉及到数据存取
+
+
+想加强弱项还是想强化强项  自己选.
+每个分类内容多少不一,写完自己的之后可以再从没有做的页面中选择,继续做
+
+
+
+
+
+
+
+首页  优选单品
+http://api.mall.yunhou.com/Widgets/widgetget?method=getMoreProduct&activeId=16920&param=%7B%22p%22%3A1%7D&_=1477712099890&callback=jsonp3
+
+优选单品  信息
+http://api.mall.yunhou.com/Product/productInfoOtherForValues?productIds=9702000202%2C19984000064%2C20077000342%2C19594000071%2C20081000193%2C19593000190%2C19298000060%2C20077000611%2C19487000027%2C19676000085%2C20081000259%2C19294000137%2C19593000196%2C9996000313%2C20077000373%2C19487000040%2C10200000010%2C20081000232%2C20081000838%2C19593000163&valueTypes=hasStore%2Cprice%2CdownTag%2CumpTags%2CproductLabels&_=1477712102370&callback=jsonp4
+
+云猴生鲜
+http://api.mall.yunhou.com/Widgets/widgetget?method=getWidgetData&activeId=19893&_=1477712983021&callback=jsonp2
+
+http://api.mall.yunhou.com/Product/productInfoOtherForValues?productIds=19994000001%2C20079000017%2C19679000014%2C19592000086%2C19679000014%2C19787000290%2C19773000005%2C19592000085&valueTypes=hasStore%2Cprice%2CdownTag%2CumpTags%2CproductLabels&_=1477712985742&callback=jsonp4
+
+云猴家电
+http://api.mall.yunhou.com/Widgets/widgetget?method=getWidgetData&activeId=22209&_=1477713105859&callback=jsonp2
+
+http://api.mall.yunhou.com/Product/productInfoOtherForValues?productIds=20183000095%2C20094000471&valueTypes=hasStore%2Cprice%2CdownTag%2CumpTags%2CproductLabels&_=1477713107792&callback=jsonp4
+
+人气热榜
+http://api.mall.yunhou.com/Product/productInfoOtherForValues?callback=jQuery111107957023381127803_1477713258183&productIds=9999000260%2C10202000036%2C20077000151%2C20077000104%2C9987000019%2C19298000054%2C9986001395%2C20077000106%2C9987000017%2C20077000155%2C20081000746%2C19785000093%2C19294000116%2C10276000333%2C19387000024%2C20077000148%2C10374000465%2C10301000007%2C20081000860%2C10088000410%2C10297000181%2C10276000348%2C19294000134%2C20179000007%2C20081000865%2C10297000081%2C10276000334%2C10285000091%2C10202000051%2C10277000141%2C9978000123%2C10276000338%2C10080900574%2C10301000012%2C9979000105%2C19898000244&valueTypes=hasStore%2Cprice%2CumpTags&_=1477713258184

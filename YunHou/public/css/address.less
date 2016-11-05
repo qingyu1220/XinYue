@@ -1,0 +1,79 @@
+.address {
+    header {
+        border-bottom: 1px solid #eee;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 0.5rem;
+        width: 100%;
+        background: #fff;
+        z-index: 5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            font-size: 0.18rem;
+        }
+
+        a {
+            width: 0.2rem;
+            height: 0.2rem;
+            background: url("../public/imgs/icons/left.png") no-repeat center center;
+            background-size: contain;
+            margin-left: 0.1rem;
+        }
+        i{
+            width:0.2rem;
+            height: 0.2rem;
+        }
+    }
+
+    main {
+        position: fixed;
+        top: 0.5rem;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+        font-size: 0.12rem;
+        line-height: 0.4rem;
+        color: #999;
+
+        .listLeft {
+            position: absolute;
+            height: 100%;
+            bottom: 0;
+            top: 0;
+            left: 0;
+            width: 30%;
+            overflow-y: auto;
+            background: #F2F2F2;
+
+            li {
+                background: #fff;
+                height: 0.4rem;
+                text-indent: 0.2rem;
+            }
+        }
+
+        .listRight {
+            width: 60%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: auto;
+
+            li {
+                border-bottom: 1px solid #eee;
+
+                &.active {
+                    span {
+                        background: blue;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

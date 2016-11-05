@@ -1,0 +1,23 @@
+<div id="goodStore" ng-controller='goodStoreCtrl'>
+	<header>
+		<div></div>
+		<div>好店搜罗新版</div>
+		<div></div>
+		<div></div>
+	</header>
+	<div class="banner"><img src="public/imgs/goodStore1.jpg" alt=""></div>
+	<nav>
+		<ul>
+			<li ng-click="activity(0)" class="activity">美妆个护<span></span></li>
+			<li ng-click="activity(1)">贴心母婴<span></span></li>
+			<li ng-click="activity(2)">全球美食<span></span></li>
+			<li ng-click="activity(3)">放心保健<span></span></li>
+		</ul>
+	</nav>
+	
+	<div class="selfStore">{自营店铺}</div>
+
+	<main>
+		<img ng-repeat="img in goodStoreImg" src={{img.imgUrl}} alt="">
+	</main>
+</div>

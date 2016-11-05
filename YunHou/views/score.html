@@ -1,0 +1,24 @@
+<div class="score">
+	<header>	
+		<div class="top">
+			<span><a href="#/mine">&lt;</a></span>
+			<span>积分</span>
+			<span><a href="#/home"></a></span>
+		</div>
+		<div class="bottom">
+			<dl class="zero">
+				<dt>0</dt>
+				<dd>冻结数:<span>0</span></dd>
+				<dd>积分明细</dd>
+			</dl>
+		</div>
+		<div class="list">
+			<a ui-sref='.you' ng-click='fn(0)' class="active">兑换优惠券</a>
+			<a ui-sref='.history' ng-click='fn(1)'>兑换记录</a>
+		</div>
+	</header>
+	
+	<main class='member' ui-view>
+		
+	</main>
+</div>

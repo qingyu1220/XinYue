@@ -1,0 +1,39 @@
+<main>
+	<swiper-directive></swiper-directive>
+	<div class="monkeyEle-hot monkeyEle-common">
+		<div class="mon-hd">热销推荐</div>
+		<div class="mon-con">
+			<img ng-repeat="x in hotArr" ng-src="{{x.img}}" alt="">
+			<div></div>
+		</div>
+	</div>
+	<div class="monEle-play" ng-repeat="x in playLifeArr">
+		<div class="mon-hd">{{x.name}}</div>
+		<div class="mon-con" >
+			<img ng-repeat="item in x.columns" ng-src="{{item.img}}" ng-class="{true:'img-1',false:'img-2'}[$first]" alt="" ">
+			<!-- <div class="con-cmd"></div> -->
+		</div>
+	</div>
+	<div class="monEle-select">
+		<div class="mon-hd">{{title}}</div>
+		<div class="mon-con">
+			<div class="mon-item" ng-repeat="x in selectArr">
+				<img ng-src="{{x.img}}" class="item-img">
+				<div class="item-info">
+					<div class="info-name">{{x.product_name}}</div>
+					<div class="info-price">
+						<div class="price-now">
+							<em>¥</em>{{x.saleprice}}
+						</div>
+						<div class="price-ori">
+							<em>￥{{x.mktprice}}</em>
+						</div>
+					</div> 
+				</div>
+				<div class="item-load">
+					<i class="iconglobal"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>

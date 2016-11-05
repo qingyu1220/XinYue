@@ -1,0 +1,51 @@
+
+	<div ng-controller="impressCtrl" id="impress">
+		<!-- 轻奢印象头部 -->
+		<div class="impTop">
+			<header>
+				<div></div>
+				<div>轻奢印象</div>
+				<div></div>
+				<div></div>
+			</header>
+			<nav>
+				<ul>
+					<li ng-click="activity(0)" class="activity">箱包<span></span></li>
+					<li ng-click="activity(1)">配饰<span></span></li>
+					<li ng-click="activity(2)">腕表<span></span></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- 轻奢印象分类 -->
+		<div class="classify">
+			<div class="luggage cBox">
+				<img src="public/imgs/luggage_1.jpg" alt="">
+				<img src="public/imgs/luggage_2.jpg" alt="">
+				<img src="public/imgs/luggage_3.jpg" alt="">
+				<img src="public/imgs/luggage_4.jpg" alt="">
+				<img src="public/imgs/luggage_5.jpg" alt="">
+			</div>
+			<div class="ACC cBox" >
+				<img src="public/imgs/ACC_1.jpg" alt="">
+				<img src="public/imgs/ACC_2.jpg" alt="">
+				<img src="public/imgs/ACC_3.jpg" alt="">
+			</div>
+			<div class="watch cBox">
+				<img src="public/imgs/watch_1.jpg" alt="">
+				<img src="public/imgs/watch_armani.jpg" alt="">
+				<img src="public/imgs/watch_danel.jpg" alt="">
+				<img src="public/imgs/watch_michael_kors.jpg" alt="">
+				<img src="public/imgs/watch_tissot.jpg" alt="">
+			</div>
+		</div>
+
+		<!-- 轻奢印象页商品 -->
+		<main>
+			<dl ng-repeat='product in products'>
+				<dt><img src={{product.imgUrl}} alt=""></dt>
+				<dd>{{product.name}}</dd>
+				<dd><span>￥{{product.price}}</span><span>￥{{product.price}}</span></dd>
+			</dl>
+		</main>
+	</div>

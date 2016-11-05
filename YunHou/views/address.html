@@ -1,0 +1,16 @@
+<div class="address">
+    <header>
+        <a href="javascript:history.go(-1)"></a>
+        <span>地址选择</span>
+        <i></i>
+    </header>
+    <main ng-init='sort="北京";isHide=true'>
+        <ul class='listLeft'>
+            <li ng-model='list2'>{{sort}}</li>
+            <li ng-model='list2' ng-hide='isHide'>{{sort}}</li>
+        </ul>
+        <ul class="listRight">
+            <li ng-repeat='city in addressData' ng-click="isHide=false"><span ng-model='sort'>{{city['省']}}</span></li>
+        </ul>
+    </main>
+</div>

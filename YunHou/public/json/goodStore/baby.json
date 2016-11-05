@@ -1,0 +1,108 @@
+{
+	"products": [{
+		"id": "19998000105",
+		"imgUrl" : "public/imgs/selfBaby1.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "599"
+	}, {
+		"id": "19599000100",
+		"imgUrl" : "public/imgs/selfBaby2.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "599"
+	}, {
+		"id": "19779000316",
+		"imgUrl" : "public/imgs/selfBaby3.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "249"
+	}, {
+		"id": "19592000173",
+		"imgUrl" : "public/imgs/selfBaby4.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "409"
+	}, {
+		"id": "10276000258",
+		"imgUrl" : "public/imgs/selfBaby5.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "369"
+	}, {
+		"id": "10276000201",
+		"imgUrl" : "public/imgs/selfBaby6.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "339"
+	}, {
+		"id": "19593000211",
+		"imgUrl" : "public/imgs/selfBaby7.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "269"
+	}, {
+		"id": "19593000235",
+		"imgUrl" : "public/imgs/selfBaby8.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "219"
+	}, {
+		"id": "19592000273",
+		"imgUrl" : "public/imgs/selfBaby9.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "42"
+	}, {
+		"id": "10274000057",
+		"imgUrl" : "public/imgs/selfBaby10.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": false,
+		"price": "29"
+	}, {
+		"id": "10274000079",
+		"imgUrl" : "public/imgs/selfBaby12.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "59"
+	}, {
+		"id": "19586000172",
+		"imgUrl" : "public/imgs/selfBaby13.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "19"
+	}, {
+		"id": "19987000010",
+		"imgUrl" : "public/imgs/selfBaby14.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "99"
+	}, {
+		"id": "19884000009",
+		"imgUrl" : "public/imgs/selfBaby15.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "59"
+	}, {
+		"id": "9783001275",
+		"imgUrl" : "public/imgs/selfBaby16.jpg",
+		"umpTags": "",
+		"name" : "德国爱他美奶粉1+600g(1岁以上)",
+		"hasStore": true,
+		"price": "198"
+	}]
+}

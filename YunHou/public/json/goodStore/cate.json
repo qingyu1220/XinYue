@@ -1,0 +1,49 @@
+{
+	"products": [{
+		"id": "20081000999",
+		"imgUrl" : "public/imgs/1.jpg",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "69.00"
+	}, {
+		"id": "20081000998",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "69.00"
+	}, {
+		"id": "20081001005",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "55.00"
+	}, {
+		"id": "20081000918",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "45.00"
+	}, {
+		"id": "20081000980",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "129.00"
+	}, {
+		"id": "20081000946",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "55.00"
+	}, {
+		"id": "20081000941",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "79.00"
+	}, {
+		"id": "20081000939",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "79.00"
+	}, {
+		"id": "20081000937",
+		"umpTags": "",
+		"hasStore": true,
+		"price": "139.00"
+	}]
+}
